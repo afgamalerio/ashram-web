@@ -35,7 +35,7 @@ const Activities = () => {
 
           <div className="col-sm-12 col-md-4 col-lg-4 card">
             <img
-              src="/assets/autoconocimiento.png"
+              src="/assets/tallerAutoconocimiento.png"
               alt="imagen evento"
               width="10rem"
               height="10rem"

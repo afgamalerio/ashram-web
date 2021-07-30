@@ -21,8 +21,7 @@ const Contact = () => {
   const sendData = async (formData) => {
     setLoading(true)
     try {
-      const data = await contactService.senEmail(formData)
-      console.log(data)
+      await contactService.senEmail(formData)
       alert('Mail enviado con exito, Muchas gracias!')
       setLoading(false)
     } catch (err) {

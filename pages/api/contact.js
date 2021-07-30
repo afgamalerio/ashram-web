@@ -29,7 +29,7 @@ export default async function (req, res) {
       from: `Ashram ${process.env.email}`,
       to: email,
       subject: `Gracias ${name}`,
-      text: 'Gracias por contactarnos en breves le responderemos!!',
+      text: '¡Gracias por contactarnos! En breve le responderemos.',
     }
 
     await transporter.sendMail(mailOptionsToMy)
