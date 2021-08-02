@@ -59,7 +59,7 @@ export default function Home() {
             <div className="row justify-content-around align-items-center">
               <div className="col-12 col-md-3 activitiesDiv__card">
                 <img
-                  src="/assets/autoconocimiento.jpg"
+                  src="/assets/tallerAutoconocimiento.png"
                   alt="Imagen actividades"
                   width="100%"
                   height="15rem"
