@@ -20,7 +20,7 @@ export default async function (req, res) {
 
     const mailOptionsToMy = {
       from: `Ashram ${process.env.email}`,
-      to: process.env.email,
+      to: 'ashramvirtual@gmail.com',
       subject: `Nuevo Comentario de ${name} ${email}`,
       text: textarea,
     }
