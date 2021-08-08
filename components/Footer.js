@@ -13,6 +13,8 @@ export const Footer = () => {
                   src="/assets/icon-light.svg"
                   alt="Icono Ashram"
                   className="footer__information--icon"
+                  width="10em"
+                  height="auto"
                 />
               </a>
             </Link>

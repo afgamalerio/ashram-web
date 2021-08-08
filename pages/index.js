@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Ashram</title>
         <meta
@@ -16,20 +16,27 @@ export default function Home() {
           content="yoga, actividades, holistico, clases, meditacion, radiestesia, cursos, formaciones"
         />
         <meta itemProp="name" content="Ashram" />
-        <meta itemProp="description" content="Ashram es un punto de encuentro y formación para aficionados a las artes holísticas como el yoga y la meditación. Se realizan actividades grupales, cursos y sesiones individuales de sanación." />
+        <meta
+          itemProp="description"
+          content="Ashram es un punto de encuentro y formación para aficionados a las artes holísticas como el yoga y la meditación. Se realizan actividades grupales, cursos y sesiones individuales de sanación."
+        />
         <meta itemProp="image" content="/banner.png" />
 
-
-        <meta property="og:url" content="https://ashram.vercel.app" />
+        <meta property="og:url" content="https://ashram.ar" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Ashram" />
-        <meta property="og:description" content="Ashram es un punto de encuentro y formación para aficionados a las artes holísticas como el yoga y la meditación. Se realizan actividades grupales, cursos y sesiones individuales de sanación." />
+        <meta
+          property="og:description"
+          content="Ashram es un punto de encuentro y formación para aficionados a las artes holísticas como el yoga y la meditación. Se realizan actividades grupales, cursos y sesiones individuales de sanación."
+        />
         <meta property="og:image" content="/banner.png" />
-
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ashram" />
-        <meta name="twitter:description" content="Ashram es un punto de encuentro y formación para aficionados a las artes holísticas como el yoga y la meditación. Se realizan actividades grupales, cursos y sesiones individuales de sanación." />
+        <meta
+          name="twitter:description"
+          content="Ashram es un punto de encuentro y formación para aficionados a las artes holísticas como el yoga y la meditación. Se realizan actividades grupales, cursos y sesiones individuales de sanación."
+        />
         <meta name="twitter:image" content="/banner.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -120,6 +127,6 @@ export default function Home() {
           </section>
         </main>
       </Layout>
-    </div>
+    </>
   )
 }

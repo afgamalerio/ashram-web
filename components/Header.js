@@ -6,7 +6,13 @@ export const Header = () => {
     <header>
       <Link href="/">
         <a>
-          <img src="/assets/icon.svg" alt="Icono Ashram" className="icon" />
+          <img
+            src="/assets/icon.svg"
+            alt="Icono Ashram"
+            className="icon"
+            width="10rem"
+            height="auto"
+          />
         </a>
       </Link>
 
@@ -14,10 +20,10 @@ export const Header = () => {
         <div className="subnav">
           <button className="subnavbtn">About</button>
           <div className="subnav-content">
-            <Link href="/about#about__ashram">
+            <Link href="/sobrenosotros#about__ashram">
               <a>¿Qué es Ashram?</a>
             </Link>
-            <Link href="/about#about__founder">
+            <Link href="/sobrenosotros#about__founder">
               <a>Sobre la fundadora</a>
             </Link>
           </div>
@@ -25,18 +31,18 @@ export const Header = () => {
         <div className="subnav">
           <button className="subnavbtn">Servicios</button>
           <div className="subnav-content">
-            <Link href="/activities">
+            <Link href="/actividades">
               <a>Actividades</a>
             </Link>
-            <Link href="/courses">
+            <Link href="/cursos">
               <a>Cursos</a>
             </Link>
-            <Link href="/sessions">
+            <Link href="/sesiones">
               <a>Sesiones</a>
             </Link>
           </div>
         </div>
-        <Link href="/contact">
+        <Link href="/contacto">
           <a className="subnavbtn">Contacto</a>
         </Link>
       </nav>
