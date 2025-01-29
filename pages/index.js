@@ -74,8 +74,8 @@ export default function Home() {
                 />
                 <h3 className="cardTitle">Actividades Grupales</h3>
                 <p>Descripción de los eventos que se realizan en Ashram</p>
-                <Link href="/activities">
-                  <a className="activitiesDiv__card--button">Ver Más</a>
+                <Link href="/actividades">
+                  <div className="activitiesDiv__card--button">Ver Más</div>
                 </Link>
               </div>
               <div className="col-12 col-md-3 activitiesDiv__card">
@@ -88,8 +88,8 @@ export default function Home() {
                 />
                 <h3 className="cardTitle">Cursos y formaciones</h3>
                 <p>Descripción de los cursos que se realizan en Ashram</p>
-                <Link href="/courses">
-                  <a className="activitiesDiv__card--button">Ver Más</a>
+                <Link href="/cursos">
+                  <div className="activitiesDiv__card--button">Ver Más</div>
                 </Link>
               </div>
               <div className="col-12 col-md-3 activitiesDiv__card">
@@ -102,8 +102,8 @@ export default function Home() {
                 />
                 <h3 className="cardTitle">Sesiones individuales</h3>
                 <p>Descripción de las sesiones que se realizan en Ashram</p>
-                <Link href="/sessions">
-                  <a className="activitiesDiv__card--button">Ver Más</a>
+                <Link href="/sesiones">
+                  <div className="activitiesDiv__card--button">Ver Más</div>
                 </Link>
               </div>
             </div>

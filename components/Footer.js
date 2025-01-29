@@ -8,7 +8,6 @@ export const Footer = () => {
         <div className="row justify-content-around align-items-stretch">
           <div className="col-12 col-md-6 footer__information">
             <Link href="/index">
-              <a>
                 <img
                   src="/assets/icon-light.svg"
                   alt="Icono Ashram"
@@ -16,7 +15,6 @@ export const Footer = () => {
                   width="10em"
                   height="auto"
                 />
-              </a>
             </Link>
 
             <p className="footer__information--text">
@@ -32,8 +30,8 @@ export const Footer = () => {
             <p className="footer__contactinfo--title">¿Tenés dudas? ¡Escribinos!</p>
 
             <p className="footer__contactinfo--text">Estamos para ayudarte</p>
-            <Link href="/contact">
-              <a className="footer__contactinfo--button">Contacto</a>
+            <Link href="/contacto">
+              <div className="footer__contactinfo--button">Contacto</div>
             </Link>
 
             <div className="footer__contactinfo--social">
@@ -85,10 +83,7 @@ export const Footer = () => {
       </footer>
       <div className="container-fluid copyright">
         <p className="copyright__text">
-          Made with love by
-          <a className="copyright__link" href="https://www.codesur.ar/">
-            Codesur
-          </a>
+          Made with love by @tuki.estudio
         </p>
       </div>
     </div>

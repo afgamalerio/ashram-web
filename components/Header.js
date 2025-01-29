@@ -5,7 +5,6 @@ export const Header = () => {
   return (
     <header>
       <Link href="/">
-        <a>
           <img
             src="/assets/icon.svg"
             alt="Icono Ashram"
@@ -13,7 +12,6 @@ export const Header = () => {
             width="10rem"
             height="auto"
           />
-        </a>
       </Link>
 
       <nav className="menu">
@@ -21,10 +19,10 @@ export const Header = () => {
           <button className="subnavbtn">About</button>
           <div className="subnav-content">
             <Link href="/sobrenosotros#about__ashram">
-              <a>¿Qué es Ashram?</a>
+              <div>¿Qué es Ashram?</div>
             </Link>
             <Link href="/sobrenosotros#about__founder">
-              <a>Sobre la fundadora</a>
+              <div>Sobre la fundadora</div>
             </Link>
           </div>
         </div>
@@ -32,18 +30,18 @@ export const Header = () => {
           <button className="subnavbtn">Servicios</button>
           <div className="subnav-content">
             <Link href="/actividades">
-              <a>Actividades</a>
+              <div>Actividades</div>
             </Link>
             <Link href="/cursos">
-              <a>Cursos</a>
+              <div>Cursos</div>
             </Link>
             <Link href="/sesiones">
-              <a>Sesiones</a>
+              <div>Sesiones</div>
             </Link>
           </div>
         </div>
         <Link href="/contacto">
-          <a className="subnavbtn">Contacto</a>
+          <div className="subnavbtn">Contacto</div>
         </Link>
       </nav>
     </header>
